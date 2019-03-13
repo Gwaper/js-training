@@ -6,6 +6,16 @@
  *
  */
 
+function total (slip)  { 
+    let som =0
+     for ( let i=0 ;i<slip.length; i++ ){
+         som = som + slip[i]
+
+    }
+    return som
+}
+
+
 
 //* Begin of tests
 const assert = require('assert')
