@@ -8,6 +8,10 @@
  */
 
 // Your code :
+function getLength(petate) {
+ return petate.length
+}
+
 
 //* Begin of tests
 const assert = require('assert')
