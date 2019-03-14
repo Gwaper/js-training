@@ -9,11 +9,15 @@
  * Example : "How are you ?" -> "How Are You ?"
  *
  */
+function jadenCase (capital) {
+    return capital.substr(0,1).toUpperCase()+	
+    capital.substr(1,capital.length).toLowerCase()
 
+}
 
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+
 // End of tests */
